@@ -1,0 +1,16 @@
+Tested the program with n = 10000 and inputs in the file num.txt generated with generate.sh
+
+Regular Merge Sort
+real	0m0.013s
+user	0m0.005s
+sys		0m0.004s
+
+Merge Sort with fork
+real	0m0.380s
+user	0m1.251s
+sys		0m0.141s
+
+Merge Sort with threads
+real	0m0.142s
+user	0m0.059s
+sys		0m0.210s
